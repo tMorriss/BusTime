@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BusTime</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        {% for d in to_home %}
+        {{ d.datetime }} ({{ d.company }}){% endfor %}
+    </body>
+</html>
